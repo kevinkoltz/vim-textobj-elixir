@@ -7,8 +7,8 @@ if !exists('g:vim_textobj_elixir_mapping')
   let g:vim_textobj_elixir_mapping = 'e'
 endif
 
-let s:save_cpo = &cpoptions
-set cpoptions&vim
+let s:save_cpo = &cpo
+set cpo&vim
 
 call textobj#user#plugin('elixir', {
     \ 'any' : {
@@ -17,5 +17,5 @@ call textobj#user#plugin('elixir', {
     \   },
     \ })
 
-let &cpoptions = s:save_cpo
+let &cpo = s:save_cpo
 unlet s:save_cpo
