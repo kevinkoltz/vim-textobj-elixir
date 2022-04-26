@@ -3,10 +3,14 @@ set cpo&vim
 
 " each pair has the syntax element and the vim syntax label
 let s:terms=[
+      \ ['schema',      'elixirEctoSchemaMacro'],
       \ ['setup_all',   'elixirExUnitMacro'],
       \ ['setup',       'elixirExUnitMacro'],
       \ ['describe',    'elixirExUnitMacro'],
       \ ['test',        'elixirExUnitMacro'],
+      \ ['object',      'elixirAbsintheMacro'],
+      \ ['field',       'elixirAbsintheMacro'],
+      \ ['input_object', 'elixirAbsintheMacro'],
       \ ['unless',      'elixirKeyword'],
       \ ['quote',       'elixirKeyword'],
       \ ['case',        'elixirKeyword'],

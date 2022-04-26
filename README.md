@@ -34,6 +34,14 @@ Elixir text objects include:
 - `unless`
 - `when`
 - `with`
+- `schema`
+- `setup_all`
+- `setup`
+- `describe`
+- `test`
+- `object`
+- `field`
+- `input_object`
 
 Example:
 
